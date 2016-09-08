@@ -1,0 +1,17 @@
+{
+  "name": "pipjs",
+  "version": "0.0.1",
+  "description": "mini fast immutable opp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "imutable"
+  ],
+  "author": "dayuoba@github.com",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.15.0"
+  }
+}
