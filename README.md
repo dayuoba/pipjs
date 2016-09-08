@@ -1,4 +1,4 @@
-## pipjs
+## pipjs (developing)
 
   A POP(protocal oriented programming) lib with FP and immutable.
 
