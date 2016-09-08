@@ -1,5 +1,5 @@
 const $ = require('./index.js');
-const $TYPE = $.MODE_TYPE;
+const $TYPE = $.MODEL_TYPE;
 
 const x = $.pip([0, 2, 3, 4])
 			.map(item => {
@@ -27,7 +27,7 @@ const u = {
 	foo: 'bar'
 };
 
-let [err, data] = people.suit(u);
+let [err, data] = people.fit(u);
 if (err) {
 	return console.log(err);
 }

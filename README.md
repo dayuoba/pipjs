@@ -23,6 +23,9 @@ const x = $.pip([0, 2, 3, 4])
 **deal with http**
 
 ```javascript
+const $ = require('pipjs');
+const $TYPE = $.MODE_TYPE;
+
 const people = $.model({
 	name: $TYPE.string.isRequired,
 	age: $TYPE.number.isRequired,
