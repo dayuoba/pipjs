@@ -4,7 +4,7 @@
 
 ### Demo
   ```
-var $ = require('./index.js');
+var $ = require('pipjs');
 
 var x = $.pip([0, 2, 3, 4])
 	.map(item => {
