@@ -6,7 +6,7 @@
 
 **toolchain with lazy and immutable inside**
 
-  ```
+  ```javascript
 const $ = require('pipjs');
 
 const x = $.pip([0, 2, 3, 4])
@@ -22,7 +22,7 @@ const x = $.pip([0, 2, 3, 4])
 
 **deal with http**
 
-```
+```javascript
 const people = $.model({
 	name: $TYPE.string.isRequired,
 	age: $TYPE.number.isRequired,
