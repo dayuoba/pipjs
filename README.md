@@ -39,7 +39,7 @@ const u = {
 	foo: 'bar'
 };
 
-let [err, data] = people.suit(u);
+let [err, data] = people.fit(u);
 if (err) {
 	return console.log(err);
 }
